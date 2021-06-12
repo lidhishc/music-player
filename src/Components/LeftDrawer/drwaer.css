@@ -1,0 +1,82 @@
+.drawerSection{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    min-width: 250px;
+}
+
+.profile{
+    margin-top: 2rem;
+width: 100%;
+max-height: 200px;
+align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+.profileImg{
+    width: 65px;
+    height: 65px;
+    border-radius: 99px;
+    box-shadow: 2px 26px 43px -10px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 26px 43px -10px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 26px 43px -10px rgba(0,0,0,0.53);
+}
+
+
+.NameSection{
+    margin-top: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.name{
+    font-weight: 900;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+}
+.email{
+    font-size: small;
+    opacity: .6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icons{
+    transform: scale(2);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    margin-top: .2rem;
+   
+    padding-top: .325rem;
+}
+
+.items{
+    display: in;
+    margin-bottom: .5rem;
+    transition: 200ms;
+    flex-wrap: wrap;
+   
+ 
+}
+.ItemName{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+.items:hover{
+    transform: scale(1.1);
+    color: blue;
+    padding-left: 2rem;
+    background-color: rgb(239, 240, 238);
+    margin-right: 2rem;
+    border-top-right-radius:33px ;
+    cursor: pointer;
+
+}

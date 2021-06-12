@@ -1,0 +1,108 @@
+.topLevel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.drawer{
+    display: flex;
+    flex: .4;
+    max-width: 260px;
+ 
+    height: 100vh;
+}
+
+.body{
+    min-height: 100%;
+   
+    width: 100%;
+    background: linear-gradient(
+        181deg
+        , white,#f5f4f4);
+    position: relative;
+    border-radius: 10px;
+    padding-left: 3rem;
+    overflow: hidden;
+    
+    
+}
+
+.bodyClass{
+    max-width: 85vw;
+    height: 100%;
+
+}
+.header{
+    display: flex;
+    min-height: 8%;
+    max-height: 8%;
+background-color: rgb(255, 255, 255);
+}
+
+.toper{
+    /* min-height: 40%; */
+    display: flex;
+   
+}
+
+.toper::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.playerDetails{
+    display: flex;
+    min-height: 52%;
+  
+}
+
+.popular{
+    display: flex;
+    margin-bottom: 0;
+    width:60%;
+    /* background-color: rgb(235, 232, 232); */
+
+}
+.playing{
+    display: flex;
+    
+    margin-bottom: 0;
+    width: 40%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .playerDetails{
+        display: flex;
+        min-height: 52%;
+        flex-direction: column;
+    }
+
+    .popular{
+        display: flex;
+        flex: .5;
+        background:black ;
+        margin-bottom: 0;
+        width: 100%;
+      
+    }
+    .playing{
+        display: flex;
+        background:yellow ;
+        margin-bottom: 0;
+        width: 100%;
+        flex: .5;
+    }
+    .drawer{
+        display: none;
+  
+        max-width: 260px;
+    
+        height: 100vh;
+    }
+    .topLevel{
+        height: 100vh;
+    }
+  }
+

@@ -1,0 +1,91 @@
+.headerTop{
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+
+.serchBar{
+    
+    height: 100%;
+    display: flex;
+   width: 50%;
+   text-align: center;
+   align-items: center;
+
+   
+}
+.serchBarInput{
+   border-radius: 99px;
+   width: 100%;
+   margin-left: 10px;
+   height: auto;
+   border: .5px solid rgb(207, 205, 205);
+   max-width: 300px;
+   height: 35px;
+   text-align: center
+}
+
+a.notif {
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background: url('http://i.imgur.com/evpC48G.png');
+    background-size: contain;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+  }
+  .num {
+    position: absolute;
+    right: 8px;
+    top: 4.5px;
+    color: #fff;
+  }
+
+  .notSet{
+      display:flex;
+      max-width: 40%;
+  }
+
+  .settingsIcon{
+      display: flex;
+     text-align: center;
+     align-items: center;
+     transform: scale(1.8);
+     margin-right: 2rem;
+     margin-left: 1rem;
+  
+  }
+.getAppTop{
+    display: flex;
+    text-align: center;
+    align-items: center; 
+    margin-right: 1rem;
+}
+  .getApp{
+    display: flex;
+    text-align: center;
+    align-items: center; 
+    height: 3rem;
+    width: 7rem;
+    background: crimson;
+    border-radius: 10px;
+    padding-left: 1.5rem;
+    color: white;
+    font-weight: 400;
+    font-size: smaller;
+  } 
+  
+
+@media only screen and (min-width: 600px) {
+    .serchBar{
+    
+        height: 100%;
+        display: flex;
+       width: 50%;
+       text-align: center;
+       align-items: center;
+ 
+    }
+}
